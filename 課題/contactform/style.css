@@ -1,0 +1,39 @@
+h1{
+  margin:0 auto;
+  margin-top:30px;
+  margin-bottom:20px;
+  border-left:5px red solid;
+  width:500px;
+  height:auto;
+  font-size:20px;
+  background-color:#f1f1f1;
+  
+}
+
+form{
+  margin: 0 auto;
+  background-color:#fbfbfb;
+  border:3px #ededeb solid;
+  border-radius:10px;
+  width:500px;
+}
+
+div{
+  padding:15px;
+}
+
+.text,textarea,.dropdown{
+  border:1px solid #dfdfdf;
+  padding:5px;
+  color:#999;
+  background:#fff;
+}
+
+.submit{
+  border:1px solid lightgrey;
+  padding:4px 10px;
+  color:white;
+  background-color:#bdbdbd;
+  border-radius:5px;
+  border-bottom: solid 2px grey;
+}

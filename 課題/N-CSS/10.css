@@ -1,0 +1,128 @@
+body{
+  position: relative;
+  width:800px;
+  top: 0;
+  font-size:1px;
+  margin:0 auto;
+}
+
+header{
+  position:absolute;
+  width:100%
+}
+
+.header-logo{
+  height:50px;
+}
+
+header img{
+  width:150px;
+}
+
+.header-list ul{
+  float:left;
+  width:100%;
+  height:35px;
+  background-color:black;
+  color:white;
+  margin: auto 0;
+  list-style:none;
+  line-height:35px;
+}
+                
+                
+.header-list ul li{
+  float:left;
+  padding-right:30px;
+  font-size:5px;
+}
+
+main{
+  clear:both;
+  position:absolute;
+  top:90px;
+  width:95%;
+}
+
+main .center{
+  float: left;
+  width:70%;
+  margin-right:5%;
+}
+
+
+main .center h1{
+  font-size:15px;
+  border-left:3px solid black;
+  border-bottom:2px solid black;
+}
+
+main .center img{
+  width:100%;
+}
+
+main .description{
+  margin:0;
+}
+main .side{
+  float: left;
+  width:25%;
+}
+
+
+main .side h2{
+  font-size:12px;
+  border-bottom: 2px dotted lightgrey;
+}
+
+
+
+main .side ul{
+  list-style: none;
+  padding-left:0;
+  font-size: 5px;
+  
+} 
+
+main .under {
+  width: 70%;
+  height:auto;
+}
+
+
+main .under-img{
+  background-color: darkgrey;
+  float:left;
+}
+
+main .under .box{
+  width:22%;
+  height:auto;
+  float:left;
+  text-align:center;
+  margin:auto;
+  margin-left:2%;
+}
+
+.box img{
+  width:100%;
+  height:auto;
+  margin:auto 0;
+  margin-top: 10%;
+}
+
+.box p{
+  height:auto;
+  margin:0;
+}
+
+footer{
+  clear:both;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color:black;
+  color:white;
+  text-align:center;
+  
+}
